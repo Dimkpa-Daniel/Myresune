@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(32, 31, 31);
+    padding: 0%;
+    margin: 0%;
+    height: 200px;
+    
+}
+.clearfix{
+    clear: both;
+}
+
+.resume-box{
+    background-color: rgb(201, 134, 10);
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px;
+}
+.box-outer{
+    padding: 30px;
+}
+.box-1{
+    width: 35%;
+    float: left;
+    background-color: black;
+    height: 1000px;
+}
+.profile{
+width: 200px;
+border-radius: 50%;
+height: 200px;
+margin-left: 19px;
+}
+
+.box-2{
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+.content{
+    padding: 5x;
+}
+.h1{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500px;
+text-transform: uppercase;
+font-size: 20px;
+}
+p{
+    color: white;
+}
+.p{
+    color:white;
+    font-family: serif;
+    font-size: 16px;
+}
+#skills{
+background-color:  #333;;
+height: 5px;
+width: 200px;
+padding: 2px;
+border-radius: 15px;
+}
+#skills::after{
+content: '';
+display: block;
+background-color: rgb(248, 122, 3);
+height: 5px;
+width: 190px;
+border-radius: 11px;
+}
+
+#skills1{
+    background-color:  #333;;
+    height: 5px;
+    width: 200px;
+    padding: 2px;
+    border-radius: 15px;
+    }
+    #skills1::after{
+    content: '';
+    display: block;
+    background-color:rgb(248, 122, 3);
+    height: 5px;
+    width: 188px;
+    border-radius: 11px;
+    }
+
+    #skills2{
+        background-color:  #333;;
+        height: 5px;
+        width: 200px;
+        padding: 2px;
+        border-radius: 15px;
+        }
+        #skills2::after{
+        content: '';
+        display: block;
+        background-color: rgb(248, 122, 3);
+        height: 5px;
+        width: 85px;
+        border-radius: 11px;
+        }
+        #skills3{
+            background-color:  #333;;
+            height: 5px;
+            width: 200px;
+            padding: 2px;
+            border-radius: 15px;
+            }
+            #skills3::after{
+            content: '';
+            display: block;
+            background-color: rgb(248, 122, 3);
+            height: 5px;
+            width: 120px;
+            border-radius: 11px;
+            }
+.intro{
+    text-align: center;
+}
+.intro h1{
+font-size: 50px;
+font-weight: 500;
+height: 40px;
+padding: 0;
+margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.hr{
+height: 2px;
+background-color: black;
+border: none;
+margin: 15px;
+}
+.intro-p{
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 300;
+margin-top: -10px!important;
+
+}
+.intro p{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-top: -10px!important;
+}
+.content-2{
+    padding: 40px;
+}
+.head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.para-1{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    
+}
+.para-2{
+    color: black;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+    margin-bottom: 20px;
+    margin-top: 0x;
+    font-weight: 400;
+}
+li{
+    color: white;
+}
+
+.back{
+    margin-left: 50px;
+   position: fixed;
+    margin-top: 20px;
+}
+.back1{
+    height: 15px;
+    width: 20px;
+    border-radius: 30px;
+    margin-left: -24px;  
+}
+.back2{
+    height: 15px;
+    width: 20px;
+    border-radius: 30px;
+margin-left: -28px;    
+}
+.back3{
+    height: 15px;
+    width: 20px;
+    border-radius: 30px;  
+}
+.back4{
+    height: 15px;
+    width: 20px;
+    border-radius: 30px;
+margin-left: -15px;    
+}
+.logo{
+    height: 50px;
+    width: 60px;
+    border-radius: 30px;  
+}
+.logo:hover{
+transform: scale(1.2);
+}
